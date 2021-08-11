@@ -1,7 +1,7 @@
 package com.logicalPrograms;
 
 import java.util.Scanner;
-
+import java.util.Random;
 /**
  * This is a program for making utility of repeating functions or equations 
  * @author Sheetal
@@ -35,5 +35,9 @@ public class Utility {
 	 */
 	public static char getUserSpecificChar() {
 		return sc.next().charAt(0);
+	}
+	public static int getRandomInt(int number) {
+		Scanner random = null;
+		return random.nextInt(number);
 	}
 }
